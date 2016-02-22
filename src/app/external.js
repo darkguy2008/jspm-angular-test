@@ -1,21 +1,8 @@
 // ###################################################################################
-// These are the original dependencies I need to include
+// These are the original dependencies I need finish to include
 // ###################################################################################
 
-// Import 'normalize.css' node module
-import 'normalize.css';
-
-// Load jquery node module. This is equivalent to import '../../node_modules/jquery/dist/jquery';
-import 'jquery';
-
-import 'angular';
-import 'angular-sanitize';
-import 'angular-animate';
-import 'angular-mocks';
-
 import '../extenal/bootstrap/bootstrap.min.css';
-import '../extenal/angular-ui-bootstrap/ui-bootstrap-tpls-0.13.3.js';
-import 'angular-loading-bar';
 
 import '../extenal/sb-admin-2/sb-admin-2.css';
 import '../extenal/sb-admin-2/metisMenu.min.css';

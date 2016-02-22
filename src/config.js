@@ -16,6 +16,8 @@ System.config({
   map: {
     "angular": "github:angular/bower-angular@1.4.3",
     "angular-animate": "github:angular/bower-angular-animate@1.4.3",
+    "angular-bootstrap": "github:angular-ui/bootstrap-bower@1.1.2",
+    "angular-loading-bar": "github:chieffancypants/angular-loading-bar@0.8.0",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.3",
     "angular-sanitize": "github:angular/bower-angular-sanitize@1.4.3",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.18",
@@ -38,6 +40,10 @@ System.config({
     },
     "github:angular/bower-angular-sanitize@1.4.3": {
       "angular": "github:angular/bower-angular@1.4.3"
+    },
+    "github:chieffancypants/angular-loading-bar@0.8.0": {
+      "angular": "github:angular/bower-angular@1.4.3",
+      "css": "github:systemjs/plugin-css@0.1.20"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
