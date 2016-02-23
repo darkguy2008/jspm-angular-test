@@ -1,8 +1,7 @@
-var gulp      = require('gulp');
-var gulp_jspm = require('gulp-jspm'); 
-var jspm      = require('gulp-jspm'); 
-var sync      = require('run-sequence');
-var rename    = require('gulp-rename');
+var gulp   = require('gulp');
+var jspm   = require('gulp-jspm'); 
+var sync   = require('run-sequence');
+var rename = require('gulp-rename');
 
 var paths = {
   entry: 'src/app/app.js',

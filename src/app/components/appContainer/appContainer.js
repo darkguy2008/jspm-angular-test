@@ -1,8 +1,8 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import {appContainerDirective} from './appContainer.directive';
+import appContainerDirective from './appContainer.directive';
 
-export const appContainer = angular.module('appContainer', [
+var appContainer = angular.module('appContainer', [
     uiRouter,
     'angular-loading-bar'
 ]).config(($stateProvider, $urlRouterProvider) => {
@@ -19,3 +19,5 @@ export const appContainer = angular.module('appContainer', [
     })
 })
 .directive('appcontainer', appContainerDirective);
+
+export default appContainer.name;

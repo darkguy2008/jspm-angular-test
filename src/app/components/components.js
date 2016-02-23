@@ -1,8 +1,10 @@
 import angular from 'angular';
-import {appContainer} from './appContainer/appContainer';
-import {home} from './home/home';
+import appContainer from './appContainer/appContainer';
+import home from './home/home';
 
-export const components = angular.module('components', [
-    appContainer.name,
-    home.name
+var components = angular.module('components', [
+    appContainer,
+    home
 ]);
+
+export default components.name;

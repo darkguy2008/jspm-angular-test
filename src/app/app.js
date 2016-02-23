@@ -8,8 +8,8 @@ import uiRouter from 'angular-ui-router';
 import normalize from 'normalize.css';
 import angularLoadingBar from 'angular-loading-bar';
 
-import {components} from './components/components';
-import {angularApp} from './app.directive';
+import components from './components/components';
+import angularApp from './app.directive';
 
 var app = 
 	angular.module('omApp', [
