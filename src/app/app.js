@@ -8,7 +8,7 @@ import uiRouter from 'angular-ui-router';
 import normalize from 'normalize.css';
 import angularLoadingBar from 'angular-loading-bar';
 
-//import {components} from './components/components';
+import components from './components/components';
 import appDirective from './app.directive';
 
 var app =
@@ -16,7 +16,8 @@ var app =
 		'ui.router',
 		'ngSanitize',
 		'ngAnimate',
-		'ui.bootstrap'//,components
+		'ui.bootstrap'
+		,components.name
 	])
 	.directive('appDirective', appDirective);
 

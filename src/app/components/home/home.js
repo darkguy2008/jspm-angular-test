@@ -1,11 +1,11 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import homeDirective from './home.directive';
-import appContainer from '../appContainer/appContainer';
+//import appContainer from '../appContainer/appContainer';
 
 var home = angular.module('home', [
-    uiRouter,
-    appContainer
+	'ui.router'
+    //appContainer.name
 ]).config(($stateProvider) => {
     $stateProvider.state('app.home', {
         url: '/home',
@@ -14,4 +14,4 @@ var home = angular.module('home', [
 })
 .directive('home', homeDirective);
 
-export default home.name;
+export default home;

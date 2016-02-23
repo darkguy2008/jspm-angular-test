@@ -3,7 +3,7 @@ import uiRouter from 'angular-ui-router';
 import appContainerDirective from './appContainer.directive';
 
 var appContainer = angular.module('appContainer', [
-    uiRouter,
+    'ui-router',
     'angular-loading-bar'
 ]).config(($stateProvider, $urlRouterProvider) => {
     // Default landing page, set to home
