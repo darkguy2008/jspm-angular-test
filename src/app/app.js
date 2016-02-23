@@ -8,18 +8,17 @@ import uiRouter from 'angular-ui-router';
 import normalize from 'normalize.css';
 import angularLoadingBar from 'angular-loading-bar';
 
-import {components} from './components/components';
-import {angularApp} from './app.directive';
+//import {components} from './components/components';
+import {appDirective} from './app.directive';
 
 var app = 
 	angular.module('omApp', [
 		'ui.router',
 		'ngSanitize',
 		'ngAnimate',
-		'ui.bootstrap',
-		components.name
+		'ui.bootstrap' //,components
 	])
-	.directive('angularApp', angularApp);
+	.directive('appDirective', appDirective);
 
 angular.element(document).ready(function() {
 	angular.bootstrap(document, [app.name]);

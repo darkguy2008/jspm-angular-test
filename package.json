@@ -1,7 +1,7 @@
 {
   "scripts": {
     "postinstall": "jspm install",
-    "start": "http-server src/ -p 8001"
+    "start": "http-server src/ -c-1 -p 8001"
   },
   "dependencies": {
     "jspm": "^0.16.0"
