@@ -1,7 +1,7 @@
 import {AppContainerController as controller} from './appContainer.controller';
 import template from './appContainer.html!text';
 
-export const appContainerDirective = ()=> {
+export default function appContainerDirective() {
     return {
         controller,
         template,

@@ -1,6 +1,6 @@
 import template from './app.html!text';
 
-export const appDirective = ()=> {
+export default function appDirective() {
   return {
     template,
     restrict: 'E',

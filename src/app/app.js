@@ -16,7 +16,7 @@ var app =
 		'ui.router',
 		'ngSanitize',
 		'ngAnimate',
-		'ui.bootstrap' //,components
+		'ui.bootstrap'//,components
 	])
 	.directive('appDirective', appDirective);
 

@@ -18,6 +18,6 @@ var appContainer = angular.module('appContainer', [
         template: '<appContainer></appContainer>'
     })
 })
-.directive('appcontainer', appContainerDirective);
+.directive('appContainer', appContainerDirective);
 
 export default appContainer.name;
