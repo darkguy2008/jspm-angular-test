@@ -17,7 +17,7 @@ var app =
 		'ngSanitize',
 		'ngAnimate',
 		'ui.bootstrap',
-		components.name
+		components
 	])
 	.directive('angularApp', angularApp);
 
