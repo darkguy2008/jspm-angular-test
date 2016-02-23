@@ -9,9 +9,9 @@ import normalize from 'normalize.css';
 import angularLoadingBar from 'angular-loading-bar';
 
 //import {components} from './components/components';
-import {appDirective} from './app.directive';
+import appDirective from './app.directive';
 
-var app = 
+var app =
 	angular.module('omApp', [
 		'ui.router',
 		'ngSanitize',
